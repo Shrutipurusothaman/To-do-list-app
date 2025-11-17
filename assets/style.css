@@ -1,0 +1,8 @@
+* {
+    padding:0;
+    margin:0;
+}
+.bi-plus-circle-fill{
+    font-size:4rem;
+    cursor:pointer;
+}

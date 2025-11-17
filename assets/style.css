@@ -2,7 +2,36 @@
     padding:0;
     margin:0;
 }
-.bi-plus-circle-fill{
-    font-size:4rem;
-    cursor:pointer;
+body{
+    /* background-image:url(../images/flower-11997_512.gif);*/
+    background-repeat:no-repeat;
 }
+.container{
+    background-color: rgb(255, 255, 255);
+    padding:2%;
+    width:60rem;
+    border:2px solid black;
+    border-radius: 2rem;
+    box-shadow:2rem 2rem 6rem violet;
+}
+.todolist h1{
+    text-shadow:2px 2px 4px rgb(182, 92, 107);
+}
+.task-box{
+    margin:6rem;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.text-enter{
+    padding:2rem 6rem;
+    border:2px solid rgb(240, 0, 240);
+    border-radius: 10rem;
+}
+.btn-info{
+    width:6rem;
+    height:4rem;
+    border-radius:2em;
+    border:2px palevioletred;
+}
+
